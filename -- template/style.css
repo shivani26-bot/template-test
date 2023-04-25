@@ -1,0 +1,13 @@
+
+html {
+  /* whenever we add padding to any element, padding will stretch the page,if a page that was 100% of the view ports width and if we add padding to something it would make that more than 100% and force a horizontal scrollbar  */
+  /* it prevents padding from adding extra width or extra height to the page */
+  box-sizing: border-box;
+}
+
+body {
+  /* for all sides  */
+  margin: 0;
+  /* vh: viewport heigt , full height of entire window that you are in */
+  min-height: 100vh;
+}
